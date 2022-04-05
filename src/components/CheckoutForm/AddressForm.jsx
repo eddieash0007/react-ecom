@@ -63,8 +63,8 @@ const AddressForm = ({checkoutToken, next}) => {
                     <FormInput name="lastName" label="Last name" />
                     <FormInput name="address1" label="Address" />
                     <FormInput name="email" label="Email" />
-                    <FormInput name="city" label="First name" />
-                    <FormInput name="zio" label="ZIP / Postal Code" />
+                    <FormInput name="city" label="City" />
+                    <FormInput name="zip" label="ZIP / Postal Code" />
                     <Grid item xs={12} sm={6}>
                         <InputLabel>Shipping Country</InputLabel>
                         <Select value={shippingCountry} fullWidth onChange={(e) => setShippingCountry(e.target.value)}>
